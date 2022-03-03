@@ -1,0 +1,98 @@
+header, main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Title Lamp */
+.lampTitle {
+	font-size: 50px;
+	color:#000000;
+	text-align: center;
+	font-family: "Open Sans",sans-serif; 
+}
+/* Title Lamp */
+
+/* BUTTON */
+button {
+	margin: 10px;
+	cursor: pointer;
+	color: #090909;
+	padding: 0.7em 1.7em;
+	font-size: 18px;
+	border-radius: 0.5em;
+	background: #e8e8e8;
+	border: 1px solid #e8e8e8;
+	transition: all .3s;
+	box-shadow: 6px 6px 12px #c5c5c5,
+							-6px -6px 12px #ffffff;
+ }
+ 
+ button:hover {
+	border: 1px solid rgb(151, 151, 151);
+ }
+ 
+ button:active {
+	box-shadow: 4px 4px 12px #c5c5c5,
+							-4px -4px 12px #ffffff;
+ }
+/* BUTTON */
+
+.changeLamp {
+	width: 100px;
+	margin-bottom: 100px;
+}
+
+/* Button On and Off */
+.switch {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+
+.switch + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+.switch--shadow + label {
+  padding: 2px;
+  width: 120px;
+  height: 60px;
+  background-color: #dddddd;
+  border-radius: 60px;
+}
+
+.switch--shadow + label:before,
+.switch--shadow + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: '';
+}
+.switch--shadow + label:before {
+  right: 1px;
+  background-color: #f1f1f1;
+  border-radius: 60px;
+  transition: all 0.4s;
+}
+.switch--shadow + label:after {
+  width: 62px;
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+
+.switch--shadow:checked + label:before {
+  background-color: #8ce196;
+}
+.switch--shadow:checked + label:after {
+  transform: translateX(60px);
+}
+/* Button On and Off */

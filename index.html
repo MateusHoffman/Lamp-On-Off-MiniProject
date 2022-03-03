@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Nome da aba do navegador -->
+	<title>💡 Lamp 💡</title>
+	<!-- Chama o arquivo style.css -->
+	<link rel="stylesheet" href="style.css">
+	<!-- Chama o arquivo script.js só que o "defer" faz ele rodar apenas no final do body -->
+	<script src="./script.js" defer></script>
+</head>
+<body>
+	<!-- HEADER -->
+	<header>
+		<h1 class="lampTitle">💡 LAMP 💡</h1>
+	</header>
+	<!-- HEADER -->
+	
+	<!-- MAIN -->
+	<main>
+		<div>
+			<img src="img\desligada.jpg" alt="Lamp" id="lamp" width="300px">
+		</div>
+		<div class="switch__container">
+			<input id="switch-shadow" class="switch switch--shadow" type="checkbox" onclick="checkbox()"/>
+			<label for="switch-shadow"></label>
+		</div>
+		<div>
+			<button id="turnOn" value="Turn On" hidden>Turn On</button>
+			<button id="turnOff" value="Turn Off" hidden>Turn Off</button>
+		</div>
+		<p></p>
+		<div>
+			<button id="changeLamp">Change Lamp</button>
+		</div>
+	</main>
+	<!-- MAIN -->
+</body>
+</html>
