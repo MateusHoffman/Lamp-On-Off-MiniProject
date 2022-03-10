@@ -1,10 +1,6 @@
 ﻿# 💡 Lamp 💡
 
- - Turn on
- - Turn off
- - Turn on and off with the same button
- - Break the light bulb with one click
- - Change the light bulb
+Project responsible for presenting my skills with HTML, CSS and JavaScript
 
 # Access the project:
 ### https://mateushoffman.github.io/Lamp-On-Off-MiniProject/
