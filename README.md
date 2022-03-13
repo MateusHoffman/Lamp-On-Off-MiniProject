@@ -1,4 +1,4 @@
-﻿# 💡 Lamp 💡
+﻿# 💡💡 Lamp-On-Off-MiniProject 💡💡
 
 Project responsible for presenting my skills with HTML, CSS and JavaScript
 
